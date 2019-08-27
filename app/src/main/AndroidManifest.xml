@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.widgets.HomeActivity"></activity>
-        <activity android:name=".views.widgets.MainActivity">
+        <activity android:name=".views.widgets.AreaCode"></activity>
+        <activity android:name=".views.widgets.MainActivity" />
+        <activity android:name=".views.widgets.HomeActivity" />
+        <activity
+            android:name=".views.widgets.LoginActivity"
+            android:theme="@style/TranslucentTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
